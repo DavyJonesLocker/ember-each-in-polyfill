@@ -1,7 +1,7 @@
 {
   "name": "ember-each-in-polyfill",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "This addon polyfills the each-in helper for compatability with Ember 1.13",
   "directories": {
     "doc": "doc",
     "test": "tests"
