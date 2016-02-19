@@ -11,7 +11,7 @@ const EachInComponent = Component.extend({
 
   keyValuePairs: computed('object', function() {
     let object = get(this, 'object');
-    let keys = typeOf(object) === 'object' ? Object.keys(object) : [];
+    let keys = ['object', 'instance'].indexOf(typeOf(object)) !== -1 ? Object.keys(object) : [];
 
     return keys.map((key) => {
       return { key, value: get(object, key) };
