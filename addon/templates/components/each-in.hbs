@@ -1,0 +1,7 @@
+{{#if keyValuePairs}}
+  {{~#each keyValuePairs as |pair|~}}
+    {{~yield pair.key pair.value~}}
+  {{~/each~}}
+{{else}}
+  {{yield to="inverse"}}
+{{/if}}

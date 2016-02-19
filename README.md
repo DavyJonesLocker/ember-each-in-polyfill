@@ -1,26 +1,19 @@
-# Ember-each-in-polyfill
+# ember-each-in-polyfill [![Build Status](https://travis-ci.org/DockYard/ember-each-in-polyfill.svg?branch=master)](https://travis-ci.org/DockYard/ember-each-in-polyfill) [![npm version](https://badge.fury.io/js/ember-each-in-polyfill.svg)](https://badge.fury.io/js/ember-each-in-polyfill) [![Ember Observer Score](http://emberobserver.com/badges/ember-each-in-polyfill.svg)](http://emberobserver.com/addons/ember-each-in-polyfill)
 
-This README outlines the details of collaborating on this Ember addon.
+This addon polyfills the `{{each-in}}` helper for compability with Ember 1.13
+
+See: [Ember Docs](http://emberjs.com/api/classes/Ember.Templates.helpers.html#method_each-in)
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-each-in-polyfill
+```
 
-## Running
+## Legal
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+[DockYard](http://dockyard.com/ember-consulting), Inc &copy; 2016
 
-## Running Tests
+[@dockyard](http://twitter.com/dockyard)
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+[Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
